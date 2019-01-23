@@ -6,20 +6,26 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>163</width>
-    <height>163</height>
+    <width>452</width>
+    <height>341</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
   </property>
   <property name="minimumSize">
    <size>
-    <width>163</width>
-    <height>163</height>
+    <width>100</width>
+    <height>100</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>163</width>
-    <height>163</height>
+    <width>802</width>
+    <height>600</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -28,10 +34,10 @@
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>161</width>
-     <height>161</height>
+     <x>50</x>
+     <y>40</y>
+     <width>321</width>
+     <height>261</height>
     </rect>
    </property>
    <property name="title">
@@ -40,9 +46,9 @@
    <widget class="QLineEdit" name="line_ransac_minimum">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>190</x>
       <y>20</y>
-      <width>41</width>
+      <width>91</width>
       <height>20</height>
      </rect>
     </property>
@@ -55,7 +61,7 @@
      <rect>
       <x>10</x>
       <y>20</y>
-      <width>101</width>
+      <width>161</width>
       <height>16</height>
      </rect>
     </property>
@@ -68,8 +74,8 @@
      <rect>
       <x>10</x>
       <y>40</y>
-      <width>91</width>
-      <height>16</height>
+      <width>151</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="text">
@@ -81,7 +87,7 @@
      <rect>
       <x>10</x>
       <y>60</y>
-      <width>91</width>
+      <width>161</width>
       <height>16</height>
      </rect>
     </property>
@@ -92,9 +98,9 @@
    <widget class="QLineEdit" name="line_ransac_distance">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>190</x>
       <y>40</y>
-      <width>41</width>
+      <width>91</width>
       <height>20</height>
      </rect>
     </property>
@@ -105,9 +111,9 @@
    <widget class="QLineEdit" name="line_ransac_bitmap">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>180</x>
       <y>60</y>
-      <width>41</width>
+      <width>101</width>
       <height>20</height>
      </rect>
     </property>
@@ -116,13 +122,22 @@
     </property>
    </widget>
    <widget class="QPushButton" name="btnRANSAC">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>130</y>
+      <x>210</x>
+      <y>170</y>
       <width>41</width>
       <height>23</height>
      </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+      <horstretch>1</horstretch>
+      <verstretch>1</verstretch>
+     </sizepolicy>
     </property>
     <property name="text">
      <string>RUN</string>
@@ -133,7 +148,7 @@
      <rect>
       <x>10</x>
       <y>80</y>
-      <width>91</width>
+      <width>161</width>
       <height>16</height>
      </rect>
     </property>
@@ -144,9 +159,9 @@
    <widget class="QLineEdit" name="line_ransac_nrlThresh">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>180</x>
       <y>80</y>
-      <width>41</width>
+      <width>101</width>
       <height>20</height>
      </rect>
     </property>
@@ -157,9 +172,9 @@
    <widget class="QLineEdit" name="line_ransac_probability">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>180</x>
       <y>100</y>
-      <width>41</width>
+      <width>101</width>
       <height>20</height>
      </rect>
     </property>
@@ -172,7 +187,7 @@
      <rect>
       <x>10</x>
       <y>100</y>
-      <width>71</width>
+      <width>151</width>
       <height>16</height>
      </rect>
     </property>
